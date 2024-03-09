@@ -25,7 +25,7 @@ const myRouter =createHashRouter([
 {path:`/`,element:<Layout/>,children:[
 
 
-  {index:true ,element:<Products/>},
+  {index:true ,element:<Login/>},
   {path:`Register`,element:<Register/>},
   {path:`Login`,element:<Login/>},
   {path:`Product`,element:<Products/>},
